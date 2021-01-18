@@ -1,0 +1,8 @@
+export enum COLORS {
+    LIGHT_ORANGE = "#FFCDA7",
+    DARK_ORANGE = "#FF7915",
+    LIGHT_BLUE = "#C1DBE3",
+    DARK_BLUE = "#326273",
+    LIGHT_GRAY = "#D0CECE",
+    DARK_GRAY = "#767171",
+};
