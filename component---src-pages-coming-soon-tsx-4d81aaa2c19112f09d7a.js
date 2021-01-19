@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{"6enr":function(n,e,t){"use strict";t.r(e),t.d(e,"default",(function(){return c}));var o=t("q1tI"),a=t.n(o),i=t("hlFM"),r=t("QeBL");function c(){return a.a.createElement(i.a,{id:"mainBox",style:r.mainBoxStyle},a.a.createElement(i.a,{id:"comingSoon",style:r.nameBoxStyle},"Coming Soon!"))}}}]);
+//# sourceMappingURL=component---src-pages-coming-soon-tsx-4d81aaa2c19112f09d7a.js.map
