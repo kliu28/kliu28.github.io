@@ -6,6 +6,7 @@ interface ButtonProps {
   text: string;
   backgroundColor: COLORS;
   size?: "small" | "medium" | "large";
+  onClick: () => void;
 }
 
 export default class StyledButton extends React.Component<ButtonProps> {
@@ -23,7 +24,6 @@ export default class StyledButton extends React.Component<ButtonProps> {
     paddingBottom: "10px",
   }
 
-
   render() {
     this.style.backgroundColor = this.props.backgroundColor;
     return <Button
@@ -31,6 +31,7 @@ export default class StyledButton extends React.Component<ButtonProps> {
       variant="contained"
       size={this.props.size || "medium"}
       fullWidth
+      onClick={this.props.onClick}
     >
       {this.props.text}
     </Button>
